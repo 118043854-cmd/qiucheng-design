@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.local
+
+# Render（部署时需要上传的）
+!Procfile
+!render.yaml
+
+# 数据 / 运行时产物
+qiucheng.db
+assets/
+!assets/.gitkeep
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

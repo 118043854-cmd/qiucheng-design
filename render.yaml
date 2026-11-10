@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: qiucheng-design
+    env: python
+    plan: free
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: AI_API_KEY
+        value: ""
+        sync: false
+      - key: AI_BASE_URL
+        value: "https://api.seedream.example.com"
+      - key: AI_MODEL
+        value: "seedream-5.0-pro"
+    healthCheckPath: /api/health
+    region: singapore

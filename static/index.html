@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>秋成设计室 · AI 电商生图平台</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <!-- ============ 侧边栏 ============ -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">秋成</div>
+      <div class="brand-text">
+        <div class="brand-title">秋成设计室</div>
+        <div class="brand-sub">AI 电商生图平台</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a class="nav-item" href="#/workbench" data-route="workbench">
+        <svg viewBox="0 0 24 24" class="nav-ico"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+        <span>工作台</span>
+      </a>
+
+      <div class="nav-group-title">生图功能</div>
+
+      <a class="nav-item" href="#/main-image" data-route="main-image">
+        <svg viewBox="0 0 24 24" class="nav-ico"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>商品主图</span>
+      </a>
+
+      <a class="nav-item" href="#/detail" data-route="detail">
+        <svg viewBox="0 0 24 24" class="nav-ico"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="14" y2="17"/></svg>
+        <span>商品详情图</span>
+      </a>
+
+      <a class="nav-item" href="#/remix" data-route="remix">
+        <svg viewBox="0 0 24 24" class="nav-ico"><rect x="9" y="9" width="10" height="10" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M15 5v3h3"/></svg>
+        <span>爆款复刻</span>
+      </a>
+
+      <a class="nav-item" href="#/matting" data-route="matting">
+        <svg viewBox="0 0 24 24" class="nav-ico"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        <span>一键抠图</span>
+      </a>
+
+      <a class="nav-item" href="#/watermark" data-route="watermark">
+        <svg viewBox="0 0 24 24" class="nav-ico"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 1 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        <span>去除水印</span>
+      </a>
+
+      <a class="nav-item" href="#/retouch" data-route="retouch">
+        <svg viewBox="0 0 24 24" class="nav-ico"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/><path d="M19 3l-2 2"/></svg>
+        <span>产品精修</span>
+      </a>
+
+      <a class="nav-item" href="#/reference" data-route="reference">
+        <svg viewBox="0 0 24 24" class="nav-ico"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/></svg>
+        <span>创作参考</span>
+      </a>
+    </nav>
+
+    <nav class="nav bottom">
+      <a class="nav-item" href="#/settings" data-route="settings">
+        <svg viewBox="0 0 24 24" class="nav-ico"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span>设置</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- ============ 主内容 ============ -->
+  <main class="main">
+    <!-- 页面容器：所有 page 叠加但同一时刻只 show 一个 -->
+    <div id="page-workbench" class="page"></div>
+    <div id="page-main-image" class="page"></div>
+    <div id="page-detail" class="page"></div>
+    <div id="page-remix" class="page"></div>
+    <div id="page-matting" class="page"></div>
+    <div id="page-watermark" class="page"></div>
+    <div id="page-retouch" class="page"></div>
+    <div id="page-reference" class="page"></div>
+    <div id="page-settings" class="page"></div>
+  </main>
+
+  <!-- ============ 通用 Toast ============ -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- ============ 通用 JS ============ -->
+  <script src="/static/app.js"></script>
+  <script src="/static/pages/workbench.js"></script>
+  <script src="/static/pages/main-image.js"></script>
+  <script src="/static/pages/detail.js"></script>
+  <script src="/static/pages/remix.js"></script>
+  <script src="/static/pages/matting.js"></script>
+  <script src="/static/pages/watermark.js"></script>
+  <script src="/static/pages/retouch.js"></script>
+  <script src="/static/pages/reference.js"></script>
+  <script src="/static/pages/settings.js"></script>
+</body>
+</html>
